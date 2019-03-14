@@ -1,0 +1,17 @@
+{
+    "name": "andkas/phpcs-ruleset",
+    "description": "In-house PHP code sniffer ruleset",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "andkas",
+            "email": "box_work@mail.ru"
+        }
+    ],
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3",
+        "slevomat/coding-standard": "^5.0"
+    }
+}
