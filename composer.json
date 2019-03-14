@@ -10,8 +10,8 @@
             "email": "box_work@mail.ru"
         }
     ],
-    "require-dev": {
-        "squizlabs/php_codesniffer": "^3",
-        "slevomat/coding-standard": "^5.0"
+    "require": {
+        "squizlabs/php_codesniffer": "^3.4.0",
+        "slevomat/coding-standard": "^5.0.2"
     }
 }
