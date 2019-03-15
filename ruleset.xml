@@ -18,7 +18,7 @@
         <exclude name="SlevomatCodingStandard.TypeHints.DeclareStrictTypes.DeclareStrictTypesMissing"/>
         <exclude name="SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces.NoEmptyLineBeforeClosingBrace"/>
         <exclude name="SlevomatCodingStandard.ControlStructures.DisallowEmpty.DisallowedEmpty"/>
-        <!--<exclude name=""/>-->
+        <exclude name="SlevomatCodingStandard.ControlStructures.LanguageConstructWithParentheses.UsedWithParentheses"/>
         <!--<exclude name=""/>-->
         <!--<exclude name=""/>-->
     </rule>
@@ -61,7 +61,9 @@
     <rule ref="PEAR.Classes.ClassDeclaration"/>
     <rule ref="PEAR.ControlStructures.ControlSignature"/>
     <rule ref="PEAR.ControlStructures.MultiLineCondition"/>
-    <rule ref="PEAR.Files.IncludingFile"/>
+    <rule ref="PEAR.Files.IncludingFile">
+        <exclude name="PEAR.Files.IncludingFile.BracketsNotRequired"/>
+    </rule>
     <rule ref="PEAR.Formatting.MultiLineAssignment"/>
     <rule ref="PEAR.Functions.FunctionCallSignature">
         <exclude name="PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket"/>
