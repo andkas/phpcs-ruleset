@@ -20,6 +20,12 @@
         <exclude name="SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces.NoEmptyLineBeforeClosingBrace"/>
         <exclude name="SlevomatCodingStandard.ControlStructures.DisallowEmpty.DisallowedEmpty"/>
         <exclude name="SlevomatCodingStandard.ControlStructures.LanguageConstructWithParentheses.UsedWithParentheses"/>
+        <exclude name="SlevomatCodingStandard.ControlStructures.RequireTernaryOperator.TernaryOperatorNotUsed"/>
+        <exclude name="SlevomatCodingStandard.ControlStructures.DisallowShortTernaryOperator.DisallowedShortTernaryOperator"/>
+        <exclude name="SlevomatCodingStandard.ControlStructures.EarlyExit.EarlyExitNotUsed"/>
+        <!--<exclude name=""/>-->
+        <!--<exclude name=""/>-->
+        <!--<exclude name=""/>-->
         <!--<exclude name=""/>-->
     </rule>
 
@@ -38,6 +44,7 @@
     <rule ref="Generic.Files.LineLength">
         <properties>
             <property name="lineLimit" value="120"/>
+            <property name="absoluteLineLimit" value="120"/>
         </properties>
     </rule>
     <rule ref="Generic.Formatting.DisallowMultipleStatements"/>
